@@ -1,0 +1,8 @@
+models:
+  - name : test
+    columns:
+      - name :  team
+        tests:
+          - unique
+          - not null
+      
